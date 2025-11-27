@@ -1,0 +1,19 @@
+inputSet:
+  name: feat21branch
+  identifier: feat21branch
+  orgIdentifier: default
+  projectIdentifier: demo
+  pipeline:
+    identifier: feat21
+    stages:
+      - stage:
+          identifier: dcs
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: Wait_1
+                    type: Wait
+                    spec:
+                      duration: 10s
