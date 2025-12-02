@@ -1,0 +1,22 @@
+pipeline:
+  name: feat21
+  identifier: feat21
+  projectIdentifier: dkushal_Playground
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: test
+        identifier: test
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: Wait
+                  name: Wait_1
+                  identifier: Wait_1
+                  spec:
+                    duration: 10m
+        tags: {}
